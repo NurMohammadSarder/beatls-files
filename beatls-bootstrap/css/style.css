@@ -1,0 +1,162 @@
+:root {
+    --bg1: #0872b9;
+    --bg2: #5ec6f2;
+    --text: #e7e7e7;
+    --text1: #353535;
+    --font:'Oswald', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+
+}
+p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 0.8;
+}
+h1, h2, h3, h4, h5, h5 {
+    line-height: 0.8;
+    font-family: var(--font);
+    font-size: 4rem;
+}
+.sec-head {
+    text-align: center;
+    margin-bottom: 2.875rem;
+}
+.sec-head h2 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.sec-head h2::after {
+    position: absolute;
+    content: url(../img/tagline.png);
+    bottom: -5px;
+    left: 0;
+}
+/* Common CSS  */
+header {
+    background-color: var(--bg1);
+    color: var(--text);
+}
+header p {
+    letter-spacing: 0;
+    line-height: 22px;
+}
+.social-icons li a{
+    color: var(--text);
+}
+.social-icons li a:hover {
+    color: var(--text1);
+}
+/* header ends  */
+
+/* navbar starts  */
+.nav-link{
+    color: var(--text1);
+}
+.nav-link.active {
+    color: var(--bg1);
+}
+.nav-link:hover {
+    color: var(--bg1);
+}
+.navbar-toggler {
+    border: 1px solid var(--bg1);
+    background-color: var(--bg1);
+}
+.navbar-toggler-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.25rem;
+}
+.sticky-top {
+    background-color: rgba(255, 255, 255, 0.322);
+}
+/* navbar ends  */
+
+/* banner starts  */
+#banner {
+    background-image: url(../img/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.banner-overlay {
+    background-color: rgba(0, 0, 0, 0.60);
+}
+.banner .col-md-12 {
+    padding: 5.5rem 0;
+    color: #fff;
+}
+.banner .col-md-12 h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 1.875rem;
+    line-height: 0.6;
+
+}
+.banner .col-md-12 span {
+    font-size: 1.875rem;
+    display: block;
+}
+.banner .col-md-12 p {
+    padding-bottom: 1.875rem;
+    line-height: 1.5rem;
+} 
+.banner .col-md-12 a {
+    width: 5.25rem;
+    height: 1.875rem;
+    border: 1px solid ;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-family: var(--font);
+    padding: 0.0625rem 0.9375rem;
+
+}
+.banner .col-md-12 a:hover {
+    background-color: var(--bg1);
+    color: #fff;
+    border-color: var(--bg1);
+}
+/* banner ends  */
+
+/* about-us starts */
+#about-us {
+    padding: 4.125rem 0;
+}
+.about-us-text {
+    margin: auto 0;
+}
+.about-us-text p {
+    line-height: 1.5rem;
+
+}
+.top-img {
+    background-image: url(../img/abt_shape.png);
+    width: 380px;
+    background-color: #5ec6f2;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+}
+/* about-us ends */
+
+/* services starts  */
+#services {
+    padding: 4.125rem 0;
+}
+/* services ends  */
