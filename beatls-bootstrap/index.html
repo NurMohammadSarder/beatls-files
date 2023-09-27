@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Beatls</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,12 +21,12 @@
     <!-- header starts  -->
 
     <header>
-        <div class="container-lg">
+        <div class="container">
             <div class="row p-0 py-2 m-0 ">
-                <div class="col-md-6 ">
-                    <p>Welcome to Beatles</p>
+                <div class="col-6 ">
+                    <p class="">Welcome to Beatles</p>
                 </div>
-                <div class="col-md-6 ">
+                <div class="col-6 ">
                     <ul class="d-flex justify-content-end p-0 social-icons">
                         <li><a href="#" class="ps-4"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="#" class="ps-4"><i class="fab fa-linkedin-in"></i></a></li>
@@ -39,9 +40,10 @@
     </header>
 
     <!-- header ends -->
+
     <!-- navbar starts  -->
     <nav class="navbar sticky-top navbar-expand-lg ">
-        <div class="container-fluid container-lg">
+        <div class="container">
             <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,16 +58,16 @@
                         <a class="nav-link" href="#about-us">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonial</a>
+                        <a class="nav-link" href="#team">Our Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blogs</a>
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#sub-section">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -74,14 +76,14 @@
     <!-- navbar ends  -->
 
     <!-- banner starts  -->
-    <section id="banner">
+    <section id="banner" class="p-0">
         <div class="banner-overlay">
-            <div class="container-lg">
+            <div class="container">
                 <div class="row banner px-3">
                     <div class="col-md-12 text-end ">
                         <h1><span>Hi! WE ARE</span> <br>
                             CREATIVE DESIGNER</h1>
-                        <p class="w-50 ms-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        <p class="ms-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation.</p>
                         <a href="#">hire us</a>
@@ -95,7 +97,7 @@
 
     <!-- about-us starts -->
     <section id="about-us">
-        <div class="container-lg">
+        <div class="container">
             <div class="sec-head">
                 <h2>about us</h2>
             </div>
@@ -121,13 +123,334 @@
 
     <!-- services starts -->
     <section id="services">
-        <div class="contianer-lg">
+        <div class="container">
             <div class="sec-head">
                 <h2>our services</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="service-parts card h-100">
+                        <div class="service-item card-body">
+                            <h3 class="card-title">GRAPHIC DESIGN</h3>
+                            <p class="card-text">Lorem ipsum doalor sit amet, consectetpisg elit, sed do eiusmod tempor
+                                incididunt ut labore
+                                et dolore magna aliqua.</p>
+                            <div class="service-icon card-img-top">
+                                <img src="img/sicon_1.png" alt="Service Icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-parts card h-100">
+                        <div class="service-item card-body">
+                            <h3 class="card-title">GRAPHIC DESIGN</h3>
+                            <p class="card-text">Lorem ipsum doalor sit amet, consectetpisg elit, sed do eiusmod tempor
+                                incididunt ut labore
+                                et dolore magna aliqua.</p>
+                            <div class="service-icon card-img-top">
+                                <img src="img/sicon_1.png" alt="Service Icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-parts card h-100">
+                        <div class="service-item card-body">
+                            <h3 class="card-title">GRAPHIC DESIGN</h3>
+                            <p class="card-text">Lorem ipsum doalor sit amet, consectetpisg elit, sed do eiusmod tempor
+                                incididunt ut labore
+                                et dolore magna aliqua.</p>
+                            <div class="service-icon card-img-top">
+                                <img src="img/sicon_1.png" alt="Service Icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- services ends  -->
+
+    <!-- gallery starts -->
+    <section id="gallery">
+        <div class="container">
+            <div class="sec-head">
+                <h2>OUR GALLERY</h2>
+            </div>
+
+            <div class="gallery-part row ">
+                <div class="gallery-col col-md-3">
+                    <div class="gallery-img">
+                        <img src="img/port1.jpg" alt="Gallery">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="gallery-img">
+                        <img src="img/port2.jpg" alt="Gallery">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-col col-md-3">
+                    <div class="gallery-img">
+                        <img src="img/port3.jpg" alt="Gallery">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="gallery-img">
+                        <img src="img/port4.jpg" alt="Gallery">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-col col-md-3">
+                    <div class="gallery-img">
+                        <img src="img/port5.jpg" alt="Gallery">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="gallery-img">
+                        <img src="img/port6.jpg" alt="Gallery">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-col col-md-3">
+                    <div class="gallery-img">
+                        <img src="img/port7.jpg" alt="Gallery">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="gallery-img">
+                        <img src="img/port8.jpg" alt="Gallery">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery ends -->
+
+
+    <!-- team starts  -->
+    <section id="team">
+        <div class="container">
+            <div class="sec-head">
+                <h2>OUR TEAM</h2>
+            </div>
+
+            <div class="team-members row">
+                <div class="team-member col-md-3">
+                    <img src="img/team1.jpg" alt="team-member">
+                    <div class="team-overlay">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-text">
+                        <h3 class="member-name">SAJAL SARDAR</h3>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <div class="team-member col-md-3">
+                    <img src="img/team2.jpg" alt="team-member">
+                    <div class="team-overlay">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-text">
+                        <h3 class="member-name">SAKEBA ANEY</h3>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <div class="team-member col-md-3">
+                    <img src="img/team3.jpg" alt="team-member">
+                    <div class="team-overlay">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-text">
+                        <h3 class="member-name">ABS UJJAL</h3>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <div class="team-member col-md-3">
+                    <img src="img/team4.jpg" alt="team-member">
+                    <div class="team-overlay">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-text">
+                        <h3 class="member-name">ANEY IRIN</h3>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- team ends  -->
+
+    <!-- testimonial starts  -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="sec-head">
+                <h2>TESTIMONIAL</h2>
+            </div>
+
+            <div class="testimonial-parts row">
+                <div class="testimonial-part col-md-6">
+                    <img src="img/testi1.png" alt="">
+                    <div class="testimonial-text">
+                        <h3 class="member-name">SHAHIN ALOM</h3>
+                        <div class="ratings">
+                            <i class="fad fa-star"></i>
+                            <i class="fad fa-star"></i>
+                            <i class="fad fa-star"></i>
+                            <i class="fad fa-star"></i>
+                            <i class="fad fa-star"></i>
+                        </div>
+                        <p class="title">Chairman</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-part col-md-6">
+                    <img src="img/testi2.png" alt="">
+                    <div class="testimonial-text">
+                        <h3 class="member-name">Fardin Chowdhury</h3>
+                        <div class="ratings">
+                            <i class="fad fa-star"></i>
+                            <i class="fad fa-star"></i>
+                            <i class="fad fa-star"></i>
+                            <i class="fad fa-star"></i>
+                            <i class="fad fa-star-half-alt"></i>
+                        </div>
+                        <p class="title">Chairman</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- testimonial ends  -->
+
+    <!-- sub-footer starts  -->
+    <section id="sub-section">
+        <div class="container sub-section">
+            <div class="row sub-section">
+                <div class="sub-section-part onep paragraph col-md-3">
+                    <img src="img/logo.png" alt="logo">
+                    <p>Lorem ipsum dolor sit amet, conser adipisicing elit, sed do eiumod apor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, conser adipisicing elit.</p>
+                </div>
+                <div class="sub-section-part twop increase col-md-3">
+                    <h3>Contact Us</h3>
+                    <div class="contact-us-footer d-flex">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="text">
+                            <p>+880-123-456-789</p>
+                            <p>+880-123-456-789</p>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-us-footer d-flex">
+                        <i class="fas fa-envelope"></i>
+                        <div class="text">
+                            <p>beatlsinfo@gmail.com</p>
+                            <p>informationbeatl@mail.com</p>
+                        </div>
+
+                    </div>
+                    <div class="contact-us-footer d-flex">
+                        <i class="fas fa-globe-asia"></i>
+                        <div class="text">
+                            <p>www.beatlsinformation.com</p>
+                            <p>www.informationbeatls.com</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="sub-section-part threep reduce col-md-3">
+                    <h3>Important Links</h3>
+                    <div class="links d-flex">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Our Team</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub-section-part fourp col-md-3">
+                    <h3>Flicker Photos</h3>
+                    <div class="flicker-photo">
+                        <ul class="d-flex flex-wrap justify-content-between align-items-center">
+                            <li><img src="img/sf1.jpg" alt="sf1"></li>
+                            <li><img src="img/sf2.jpg" alt="sf2"></li>
+                            <li><img src="img/sf3.jpg" alt="sf3"></li>
+                            <li><img src="img/sf4.jpg" alt="sf4"></li>
+                            <li><img src="img/sf5.jpg" alt="sf5"></li>
+                            <li><img src="img/sf6.jpg" alt="sf6"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sub-footer ends  -->
+
+    <!-- footer starts  -->
+    <footer>
+        <div class="container footer">
+            <p>Copyright &copy 2023. All rights reserved by <span class="colorful">NurMohammad</span></p>
+        </div>
+
+    </footer>
+    <!-- footer ends  -->
+
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
